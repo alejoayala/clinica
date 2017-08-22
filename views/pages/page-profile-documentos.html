@@ -1,0 +1,136 @@
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-4">
+
+        <div class="panel rounded shadow">
+            <div class="panel-body">
+                <div class="inner-all">
+                    <ul class="list-unstyled">
+                        <li class="text-center">
+                            <img class="img-circle img-bordered-primary" ng-src="{{settings.globalImagePath}}/imagenes/foto-100x100.png" alt="Tol Lee">
+                        </li>
+                        <li class="text-center">
+                            <h4 class="text-capitalize">Mario Arenas Vargas</h4>
+                            <p class="text-muted text-capitalize">Sede CENTRAL</p>
+                        </li>
+                        <li>
+                            <a href="" class="btn btn-success text-center btn-block">Historial Clinico</a>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <div class="btn-group-vertical btn-block">
+                              <a href="#/paciente-view" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Datos Personales</a>
+                              <a href="#/paciente-view-citas" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Citas</a>
+                              <a href="#/paciente-view-atencion" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Registro de Atención</a>
+                              <a href="#/paciente-view-presupuesto" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Presupuestos</a>
+                              <a href="#/paciente-view-documentos" class="btn btn-danger"><i class="fa fa-cog pull-right"></i>Documentos Clinicos</a>
+                              <a href="#/paciente-view-imagenes" class="btn btn-default"><i class="fa fa-sign-out pull-right"></i>Imagenes y Videos</a>
+                           </div>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <a href="" class="btn btn-success text-center btn-block">Facturación</a>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <div class="btn-group-vertical btn-block">
+                                <a href="" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Recaudación(Pagos)</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-sign-out pull-right"></i>Pagos Recibidos</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Pagos Anulados</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.panel -->
+
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-8">
+
+<div class="row">
+    <div class="col-md-12">
+
+        <!-- Start sample validation 1-->
+        <div class="panel rounded shadow">
+            <div class="panel-heading">
+                <div class="pull-left">
+                    <h3 class="panel-title">Documentos Clinicos</h3>
+                </div>
+                <div class="pull-right">
+                    <button data-tooltip data-collapse-panel class="btn btn-sm" data-container="body" data-action="collapse" data-toggle="tooltip" data-placement="top" data-title="Collapse"><i class="fa fa-angle-up"></i></button>
+                    <button data-tooltip data-remove-panel class="btn btn-sm" data-container="body" data-action="remove" data-toggle="tooltip" data-placement="top" data-title="Remove"><i class="fa fa-times"></i></button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="panel-body no-padding">
+              <div class="form-group" style="padding:20px !important;">
+                  <label class="control-label">Cargar Archivo</label>
+                  <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                      <div class="form-control" data-trigger="fileinput"><i class="glyphicon glyphicon-file fileinput-exists"></i> <span class="fileinput-filename"></span></div>
+                      <span class="input-group-addon btn btn-success btn-file"><span class="fileinput-new">Seleccione Archivo</span><span class="fileinput-exists">Change</span><input type="file" name="..."></span>
+                      <a href="#" class="input-group-addon btn btn-danger fileinput-exists" data-dismiss="fileinput">Eliminar</a>
+                  </div>
+              </div><!-- /.form-group -->
+              <div class="row" style="padding-left:20px;padding-right:20px;">
+                  <!-- Start table with actions -->
+                  <div class="table-responsive mb-20">
+                      <table class="table">
+                          <thead>
+                          <tr>
+                              <th class="text-center">Item</th>
+                              <th>Subido Por</th>
+                              <th>Fecha</th>
+                              <th>Nombre Archivo</th>
+                              <th class="text-center" style="min-width: 15%">Actions</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td class="text-center">1</td>
+                                  <td>Alvaro Fernandez</td>
+                                  <td>27-Abr-2016</td>
+                                  <td>documento_clinico_1.pdf</td>
+                                  <td class="text-center">
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="ver detalle"><i class="fa fa-eye"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="imprimir"><i class="fa fa-print"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="eliminar"><i class="fa fa-trash-o"></i></a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td class="text-center">2</td>
+                                <td>Oscar Vera</td>
+                                <td>23-May-2016</td>
+                                <td>documento_clinico_2.pdf</td>
+                                  <td class="text-center">
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="ver detalle"><i class="fa fa-eye"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="imprimir"><i class="fa fa-print"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="eliminar"><i class="fa fa-trash-o"></i></a>
+                                  </td>
+                              </tr>
+                              <tr>
+                                <td class="text-center">3</td>
+                                <td>Alfredo Carpio</td>
+                                <td>7-Jun-2016</td>
+                                <td>documento_clinico_3.pdf</td>
+                                  <td class="text-center">
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="ver detalle"><i class="fa fa-eye"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="imprimir"><i class="fa fa-print"></i></a>
+                                      <a data-tooltip href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="eliminar"><i class="fa fa-trash-o"></i></a>
+                                  </td>
+                              </tr>
+                          </tbody>
+
+                      </table>
+                  </div><!-- /.table-responsive -->
+              </div>
+
+            </div>
+        </div><!-- /.panel -->
+        <!--/ End sample validation 1 -->
+
+    </div>
+</div><!-- /.row -->
+
+
+    </div>
+</div><!-- /.row -->

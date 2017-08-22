@@ -1,0 +1,134 @@
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-4">
+
+        <div class="panel rounded shadow">
+            <div class="panel-body">
+                <div class="inner-all">
+                    <ul class="list-unstyled">
+                        <li class="text-center">
+                            <img class="img-circle img-bordered-primary" ng-src="{{settings.globalImagePath}}/imagenes/foto-100x100.png" alt="Tol Lee">
+                        </li>
+                        <li class="text-center">
+                            <h4 class="text-capitalize">Mario Arenas Vargas</h4>
+                            <p class="text-muted text-capitalize">Sede CENTRAL</p>
+                        </li>
+                        <li>
+                            <a href="" class="btn btn-success text-center btn-block">Historial Clinico</a>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <div class="btn-group-vertical btn-block">
+                              <a href="#/paciente-view" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Datos Personales</a>
+                              <a href="#/paciente-view-citas" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Citas</a>
+                              <a href="#/paciente-view-atencion" class="btn btn-danger"><i class="fa fa-cog pull-right"></i>Registro de Atención</a>
+                              <a href="#/paciente-view-presupuesto" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Presupuestos</a>
+                              <a href="#/paciente-view-documentos" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Documentos Clinicos</a>
+                              <a href="#/paciente-view-imagenes" class="btn btn-default"><i class="fa fa-sign-out pull-right"></i>Imagenes y Videos</a>
+                           </div>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <a href="" class="btn btn-success text-center btn-block">Facturación</a>
+                        </li>
+                        <li><br/></li>
+                        <li>
+                            <div class="btn-group-vertical btn-block">
+                                <a href="" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Recaudación(Pagos)</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-sign-out pull-right"></i>Pagos Recibidos</a>
+                                <a href="" class="btn btn-default"><i class="fa fa-cog pull-right"></i>Pagos Anulados</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.panel -->
+
+    </div>
+    <div class="col-lg-9 col-md-9 col-sm-8">
+
+      <div class="row">
+          <div class="col-md-12">
+
+        <!-- Start sample validation 1-->
+        <div class="panel rounded shadow">
+            <div class="panel-heading">
+                <div class="pull-left">
+                    <h3 class="panel-title">Ficha de Atención</h3>
+                </div>
+                <div class="pull-right">
+                    <button data-tooltip data-collapse-panel class="btn btn-sm" data-container="body" data-action="collapse" data-toggle="tooltip" data-placement="top" data-title="Collapse"><i class="fa fa-angle-up"></i></button>
+                    <button data-tooltip data-remove-panel class="btn btn-sm" data-container="body" data-action="remove" data-toggle="tooltip" data-placement="top" data-title="Remove"><i class="fa fa-times"></i></button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="panel-body no-padding">
+                <form data-sample-validation-1 class="form-horizontal form-bordered" role="form">
+                    <div class="form-body">
+                        <div class="form-group" style="padding-right:20px;">
+                            <h5 class="pull-right">Fecha: <strong> 21 de Agosto de 2017</strong></h4>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Condición</label>
+                            <div class="col-sm-7">
+                              <div class="ckbox ckbox-success">
+                                  <input id="checkbox-success1" type="checkbox">
+                                  <label for="checkbox-success1">DB</label>
+                              </div>
+                              <div class="ckbox ckbox-success">
+                                  <input id="checkbox-success2" type="checkbox">
+                                  <label for="checkbox-success2">HTA</label>
+                              </div>
+                              <div class="ckbox ckbox-success">
+                                  <input id="checkbox-success3" type="checkbox">
+                                  <label for="checkbox-success3">ALERGIA</label>
+                              </div>
+                              <div class="ckbox ckbox-success">
+                                  <input id="checkbox-success4" checked="checked" type="checkbox">
+                                  <label for="checkbox-success4">PROBLEMAS DE COLUMNA</label>
+                              </div>
+                            </div>
+
+                        </div><!-- /.form-group -->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">SYS  <span class="asterisk">*</span></label>
+                            <div class="col-sm-7">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">EXAMEN <span class="asterisk">*</span></label>
+                            <div class="col-sm-7">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">TRATAMIENTO <span class="asterisk">*</span></label>
+                            <div class="col-sm-7">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">RECETA <span class="asterisk">*</span></label>
+                            <div class="col-sm-7">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div><!-- /.form-group -->
+                    </div><!-- /.form-body -->
+                    <div class="form-footer">
+                        <div class="col-sm-offset-3">
+                            <button type="submit" class="btn btn-theme">Grabar</button>
+                        </div>
+                    </div><!-- /.form-footer -->
+                </form>
+
+            </div>
+        </div><!-- /.panel -->
+        <!--/ End sample validation 1 -->
+
+    </div>
+      </div><!-- /.row -->
+
+
+    </div>
+</div><!-- /.row -->

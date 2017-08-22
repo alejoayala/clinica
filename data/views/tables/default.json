@@ -1,0 +1,254 @@
+{
+  "sampleTable":[
+    {
+      "image": "2.png",
+      "name": "Miguel Hernandez Rocca",
+      "location": "Av. Tomas Marsano # 350",
+      "position": "La Merced",
+      "rating": "2925049",
+      "progress": "996648894"
+    },
+    {
+      "image": "3.png",
+      "name": "Javier Martinez Luna",
+      "location": "Av. Venezuela # 450",
+      "position": "San Martin",
+      "rating": "2924040",
+      "progress": "996088899"
+    },
+    {
+      "image": "4.png",
+      "name": "Clara Benavente Cruz",
+      "location": "Av. Benevides # 350",
+      "position": "Miraflores",
+      "rating": "25502046",
+      "progress": "996048877"
+    },
+    {
+      "image": "6.png",
+      "name": "Alicia Donovan Mercado",
+      "location": "Av. Mariscal Castilla # 250",
+      "position": "San Borja",
+      "rating": "27550499",
+      "progress": "9948955556"
+    },
+    {
+      "image": "7.png",
+      "name": "Felix Arana Vertiz",
+      "location": "Av. Peru # 215",
+      "position": "La Molina",
+      "rating": "25066666",
+      "progress": "9966885577"
+    },
+    {
+      "image": "8.png",
+      "name": "Mario Arenas Vargas",
+      "location": "Jr. Ayacucho # 256 Int. B",
+      "position": "Barranco",
+      "rating": "3555557",
+      "progress": "988965778"
+    }
+  ],
+  "basicTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "stripedTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "borderedTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "hoverTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "checkboxTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "actionTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell"
+    }
+  ],
+  "contextualClassesRowTable": [
+    {
+      "class": "active",
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell"
+    },
+    {
+      "class": "success",
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell"
+    },
+    {
+      "class": "info",
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell"
+    },
+    {
+      "class": "warning",
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell"
+    },
+    {
+      "class": "danger",
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell"
+    }
+  ],
+  "contextualClassesColumnTable": [
+    {
+      "classActive": "active",
+      "classSuccess": "success",
+      "classInfo": "info",
+      "classWarning": "warning",
+      "classDanger": "danger"
+    },
+    {
+      "classActive": "active",
+      "classSuccess": "success",
+      "classInfo": "info",
+      "classWarning": "warning",
+      "classDanger": "danger"
+    },
+    {
+      "classActive": "active",
+      "classSuccess": "success",
+      "classInfo": "info",
+      "classWarning": "warning",
+      "classDanger": "danger"
+    },
+    {
+      "classActive": "active",
+      "classSuccess": "success",
+      "classInfo": "info",
+      "classWarning": "warning",
+      "classDanger": "danger"
+    },
+    {
+      "classActive": "active",
+      "classSuccess": "success",
+      "classInfo": "info",
+      "classWarning": "warning",
+      "classDanger": "danger"
+    }
+  ],
+  "responsiveTable": [
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell",
+      "column5": "Table cell",
+      "column6": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell",
+      "column5": "Table cell",
+      "column6": "Table cell"
+    },
+    {
+      "column1": "Table cell",
+      "column2": "Table cell",
+      "column3": "Table cell",
+      "column4": "Table cell",
+      "column5": "Table cell",
+      "column6": "Table cell"
+    }
+  ]
+}
